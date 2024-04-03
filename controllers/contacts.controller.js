@@ -1,6 +1,6 @@
 // Contact controllers here
 
-import contactModel from '../models/contact.model.js'
+import contactModel from '../models/contacts.models.js'
 
 const contactControllers={
     createContact: async(req, res)=>{
