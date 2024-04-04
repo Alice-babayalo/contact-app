@@ -37,14 +37,14 @@
           "type": "object",
           "properties": {
             "firstName": {
-              "type": "string",
-              "default": "Gaby"
+              "type": "string"
             },
             "lastName": {
               "type": "string"
             },
             "email": {
-              "type": "string"
+              "type": "string",
+              "default": "@gmail.com"
             },
             "phone": {
               "type": "string"

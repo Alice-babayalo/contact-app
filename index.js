@@ -30,7 +30,7 @@ mongoose.connect(configuration.mongoURI)
     console.log(err);
 });
 app.use("/",(req,res)=>{
-    console.log("listening server");
+    // console.log("listening server");
     return res.send("server is running");
 })
 
