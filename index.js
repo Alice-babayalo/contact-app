@@ -15,7 +15,7 @@ app.use(cors());
 import router from './routes/contacts.router.js'
 
 app.use('/contact_app', router)
-app.use("/alice",  swaggerUi.serve, swaggerUi.setup(swagger))
+app.use("/swagger",  swaggerUi.serve, swaggerUi.setup(swagger))
 
 
 
